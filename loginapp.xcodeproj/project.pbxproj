@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		CEFE843A299C19A700D6E497 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFE8439299C19A700D6E497 /* AppDelegate.swift */; };
 		CEFE843C299C19A700D6E497 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFE843B299C19A700D6E497 /* SceneDelegate.swift */; };
-		CEFE843E299C19A700D6E497 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFE843D299C19A700D6E497 /* ViewController.swift */; };
+		CEFE843E299C19A700D6E497 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFE843D299C19A700D6E497 /* MainViewController.swift */; };
 		CEFE8441299C19A700D6E497 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEFE843F299C19A700D6E497 /* Main.storyboard */; };
 		CEFE8443299C19A900D6E497 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEFE8442299C19A900D6E497 /* Assets.xcassets */; };
 		CEFE8446299C19A900D6E497 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEFE8444299C19A900D6E497 /* LaunchScreen.storyboard */; };
+		CEFE844E299C237300D6E497 /* GreetingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFE844D299C237300D6E497 /* GreetingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CEFE8436299C19A700D6E497 /* loginapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = loginapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEFE8439299C19A700D6E497 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEFE843B299C19A700D6E497 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CEFE843D299C19A700D6E497 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CEFE843D299C19A700D6E497 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		CEFE8440299C19A700D6E497 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CEFE8442299C19A900D6E497 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEFE8445299C19A900D6E497 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEFE8447299C19A900D6E497 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEFE844D299C237300D6E497 /* GreetingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +60,8 @@
 			children = (
 				CEFE8439299C19A700D6E497 /* AppDelegate.swift */,
 				CEFE843B299C19A700D6E497 /* SceneDelegate.swift */,
-				CEFE843D299C19A700D6E497 /* ViewController.swift */,
+				CEFE843D299C19A700D6E497 /* MainViewController.swift */,
+				CEFE844D299C237300D6E497 /* GreetingViewController.swift */,
 				CEFE843F299C19A700D6E497 /* Main.storyboard */,
 				CEFE8442299C19A900D6E497 /* Assets.xcassets */,
 				CEFE8444299C19A900D6E497 /* LaunchScreen.storyboard */,
@@ -138,9 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEFE843E299C19A700D6E497 /* ViewController.swift in Sources */,
+				CEFE843E299C19A700D6E497 /* MainViewController.swift in Sources */,
 				CEFE843A299C19A700D6E497 /* AppDelegate.swift in Sources */,
 				CEFE843C299C19A700D6E497 /* SceneDelegate.swift in Sources */,
+				CEFE844E299C237300D6E497 /* GreetingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

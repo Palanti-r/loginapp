@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina4_0" orientation="portrait" appearance="light"/>
+    <device id="retina6_72" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
@@ -9,37 +9,37 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Main View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="loginapp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="MainViewController" customModule="loginapp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="Z5g-TG-vT2">
-                                <rect key="frame" x="56.5" y="209" width="207" height="150.5"/>
+                                <rect key="frame" x="111.66666666666669" y="390.66666666666669" width="207" height="150.66666666666669"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" verticalHuggingPriority="249" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="User Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wRn-Wt-vHZ">
-                                        <rect key="frame" x="0.0" y="0.0" width="207" height="34"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="207" height="34.333333333333336"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1B6-AP-UYE">
-                                        <rect key="frame" x="0.0" y="40" width="207" height="34"/>
+                                        <rect key="frame" x="0.0" y="40.333333333333314" width="207" height="34"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IGa-Ga-lGn">
-                                        <rect key="frame" x="0.0" y="80" width="207" height="34.5"/>
+                                        <rect key="frame" x="0.0" y="80.333333333333314" width="207" height="34.333333333333343"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="filled" title="Log in"/>
                                         <connections>
-                                            <segue destination="uKc-IT-Crp" kind="presentation" id="LjS-5H-yq0"/>
+                                            <segue destination="uKc-IT-Crp" kind="presentation" modalPresentationStyle="fullScreen" id="LjS-5H-yq0"/>
                                         </connections>
                                     </button>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="oqm-hv-IPe">
-                                        <rect key="frame" x="0.0" y="120.5" width="207" height="30"/>
+                                        <rect key="frame" x="0.0" y="120.66666666666663" width="207" height="30"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Oz-9p-Ilb">
                                                 <rect key="frame" x="0.0" y="0.0" width="100" height="30"/>
@@ -81,12 +81,12 @@
             </objects>
             <point key="canvasLocation" x="135" y="3.1690140845070425"/>
         </scene>
-        <!--View Controller-->
+        <!--Greeting View Controller-->
         <scene sceneID="cVj-8D-jvg">
             <objects>
-                <viewController id="uKc-IT-Crp" sceneMemberID="viewController">
+                <viewController id="uKc-IT-Crp" customClass="GreetingViewController" customModule="loginapp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="H4X-ST-OKJ">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="548"/>
+                        <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="6HI-uf-cUv"/>
                         <color key="backgroundColor" systemColor="systemTealColor"/>
